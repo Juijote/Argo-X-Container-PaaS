@@ -19,4 +19,4 @@ COPY . .
 
 RUN docker build -t image .
 RUN docker run -d -p 3000:80 image
-EXPOSE WEBSITE http://localhost:3000
+EXPOSE WEBSITE https://localhost:3000
