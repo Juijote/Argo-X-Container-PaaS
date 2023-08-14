@@ -19,4 +19,4 @@ COPY . .
 
 RUN docker build -t image .
 RUN docker run -d -p 80:3000 -p 443:3000 image
-EXPOSE WEBSITE localhost
+EXPOSE WEBSITE localhost:80
